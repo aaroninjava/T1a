@@ -37,15 +37,15 @@
                 <EditText
                     android:id="@+id/editText"
                     style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
-                    android:layout_width="@android:dimen/notification_large_icon_width"
+                    android:layout_width="64dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:ems="10"
-                    android:hint="123"
-                    android:inputType="numberDecimal"
                     android:background="@null"
+                    android:ems="10"
                     android:gravity="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:hint="12"
+                    android:inputType="numberDecimal"
+                    android:textAppearance="@android:style/TextAppearance.Material.Headline"
                     tools:background="null"
                     tools:layout_width="50dp" />
             </LinearLayout>
