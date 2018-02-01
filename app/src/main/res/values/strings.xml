@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Option Calculator</string>
+    <string name="hello">Hello Aaron!!</string>
+    <string name="Strike">履約價</string>
+    <string name="Vol">波動率</string>
+    <string name="daysOut">到期天數</string>
+</resources>
