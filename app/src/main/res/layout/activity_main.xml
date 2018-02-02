@@ -44,8 +44,8 @@
                     android:layout_weight="1"
 
                     android:text="ToggleButton"
-                    android:textOff="買權"
-                    android:textOn="賣權" />
+                    android:textOff="CALL"
+                    android:textOn="PUT" />
 
             </LinearLayout>
 
@@ -60,7 +60,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="計算理論價格與風險敏感性係數" />
+                    android:text="點擊右邊按鈕 可切換:  買權Call 、賣權Put" />
             </LinearLayout>
 
         </LinearLayout>
@@ -110,7 +110,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="計算理論價格與風險敏感性係數" />
+                    android:text="到期履約的標的價格，台指選擇權標的為加權指數" />
             </LinearLayout>
 
         </LinearLayout>
@@ -160,7 +160,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="計算理論價格與風險敏感性係數" />
+                    android:text="Strike Price" />
             </LinearLayout>
 
         </LinearLayout>
@@ -210,7 +210,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="計算理論價格與風險敏感性係數" />
+                    android:text="需考慮不含假日的實際可交易日" />
             </LinearLayout>
 
         </LinearLayout>
@@ -260,7 +260,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="計算理論價格與風險敏感性係數" />
+                    android:text="可用標的價的30天歷史波動率或過去經驗值代入" />
             </LinearLayout>
 
         </LinearLayout>
@@ -310,7 +310,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="計算理論價格與風險敏感性係數" />
+                    android:text="可用央行基本利率或台銀短天期存款利率" />
             </LinearLayout>
 
         </LinearLayout>
@@ -353,7 +353,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="計算理論價格與風險敏感性係數" />
+                    android:text="點擊右邊按鈕，計算理論價格與風險敏感性係數" />
             </LinearLayout>
 
         </LinearLayout>
