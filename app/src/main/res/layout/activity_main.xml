@@ -130,23 +130,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
-                    android:text="履約價"
+                    android:text="選擇權理論價"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-                <EditText
-                    android:id="@+id/editText"
-                    style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
-                    android:layout_width="64dp"
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="@android:dimen/notification_large_icon_height"
                     android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:background="@null"
-                    android:ems="10"
-                    android:gravity="center"
-                    android:hint="11050"
-                    android:inputType="numberDecimal"
-                    android:textAppearance="@android:style/TextAppearance.Material.Headline"
-                    tools:background="null"
-                    tools:layout_width="50dp" />
+                    android:layout_weight="30"
+                    android:text="計算" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -160,157 +153,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Strike Price" />
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="100"
-                    android:text="距離到期天數"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-                <EditText
-                    android:id="@+id/editText"
-                    style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
-                    android:layout_width="64dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:background="@null"
-                    android:ems="10"
-                    android:gravity="center"
-                    android:hint="6"
-                    android:inputType="numberDecimal"
-                    android:textAppearance="@android:style/TextAppearance.Material.Headline"
-                    tools:background="null"
-                    tools:layout_width="50dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="需考慮不含假日的實際可交易日" />
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="100"
-                    android:text="權利金 Premiun"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-                <EditText
-                    android:id="@+id/editText"
-                    style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
-                    android:layout_width="64dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="5"
-                    android:background="@null"
-                    android:ems="10"
-                    android:gravity="center"
-                    android:hint="9.8"
-                    android:inputType="numberDecimal"
-                    android:textAppearance="@android:style/TextAppearance.Material.Headline"
-                    tools:background="null"
-                    tools:layout_width="50dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="買權 Call 或 賣權 Put 之權利金價格" />
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="100"
-                    android:text="無風險利率%"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-                <EditText
-                    android:id="@+id/editText"
-                    style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
-                    android:layout_width="64dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="10"
-                    android:background="@null"
-                    android:ems="10"
-                    android:gravity="center"
-                    android:hint="1.75"
-                    android:inputType="numberDecimal"
-                    android:textAppearance="@android:style/TextAppearance.Material.Headline"
-                    tools:background="null"
-                    tools:layout_width="50dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="可用央行基本利率或台銀短天期存款利率" />
+                    android:text="利用預估波動率，計算BS-Model  之 權利金理論值" />
             </LinearLayout>
 
         </LinearLayout>
