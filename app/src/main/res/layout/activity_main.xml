@@ -181,7 +181,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="點擊右邊按鈕，計算隱含波動率" />
+                    android:text="Implied Volatilaty 利用權利金，計算隱含波動率" />
             </LinearLayout>
 
         </LinearLayout>
