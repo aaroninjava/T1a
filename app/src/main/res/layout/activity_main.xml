@@ -37,20 +37,16 @@
                     android:text="種類: 買、賣權"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-                <EditText
-                    android:id="@+id/editText"
-                    style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
-                    android:layout_width="64dp"
+                <ToggleButton
+                    android:id="@+id/toggleButton"
+                    android:layout_width="@android:dimen/notification_large_icon_height"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="@null"
-                    android:ems="10"
-                    android:gravity="center"
-                    android:hint="call"
-                    android:inputType="numberDecimal"
-                    android:textAppearance="@android:style/TextAppearance.Material.Headline"
-                    tools:background="null"
-                    tools:layout_width="50dp" />
+
+                    android:text="ToggleButton"
+                    android:textOff="買權"
+                    android:textOn="賣權" />
+
             </LinearLayout>
 
             <LinearLayout
