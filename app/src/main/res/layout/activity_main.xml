@@ -154,7 +154,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
-                    android:text="波動率 %"
+                    android:text="權利金價格"
                     android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
                 <TextView
@@ -162,7 +162,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="20 %"
+                    android:text="10"
                     android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             </LinearLayout>
@@ -248,16 +248,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
-                    android:text="權利金理論價"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+                    android:text="隱含波動率"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text=" 10.23"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+                    android:text=" 19.91%"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
             </LinearLayout>
 
@@ -286,7 +286,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="0.52"
+                    android:text="0.49"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
             </LinearLayout>
@@ -330,7 +330,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="1.09"
+                    android:text="1.21"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
             </LinearLayout>
