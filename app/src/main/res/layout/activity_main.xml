@@ -230,7 +230,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
-                    android:text="波動率 %"
+                    android:text="權利金 Premiun"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
                 <EditText
@@ -242,7 +242,7 @@
                     android:background="@null"
                     android:ems="10"
                     android:gravity="center"
-                    android:hint="20"
+                    android:hint="9.8"
                     android:inputType="numberDecimal"
                     android:textAppearance="@android:style/TextAppearance.Material.Headline"
                     tools:background="null"
@@ -260,7 +260,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="可用標的價的30天歷史波動率或過去經驗值代入" />
+                    android:text="買權 Call 或 賣權 Put 之權利金價格" />
             </LinearLayout>
 
         </LinearLayout>
@@ -330,7 +330,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="100"
-                    android:text="權利金理論價"
+                    android:text="隱含波動率"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
                 <Button
@@ -353,7 +353,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="點擊右邊按鈕，計算理論價格與風險敏感性係數" />
+                    android:text="點擊右邊按鈕，計算隱含波動率" />
             </LinearLayout>
 
         </LinearLayout>
