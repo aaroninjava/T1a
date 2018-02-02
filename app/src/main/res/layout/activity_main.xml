@@ -88,7 +88,7 @@
                     style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
                     android:layout_width="64dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="10"
                     android:background="@null"
                     android:ems="10"
                     android:gravity="center"
@@ -138,7 +138,7 @@
                     style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
                     android:layout_width="64dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="10"
                     android:background="@null"
                     android:ems="10"
                     android:gravity="center"
@@ -188,7 +188,7 @@
                     style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
                     android:layout_width="64dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="10"
                     android:background="@null"
                     android:ems="10"
                     android:gravity="center"
@@ -238,7 +238,7 @@
                     style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
                     android:layout_width="64dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="5"
                     android:background="@null"
                     android:ems="10"
                     android:gravity="center"
@@ -288,7 +288,7 @@
                     style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
                     android:layout_width="64dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="10"
                     android:background="@null"
                     android:ems="10"
                     android:gravity="center"
@@ -333,20 +333,13 @@
                     android:text="權利金理論價"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-                <EditText
-                    android:id="@+id/editText"
-                    style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
-                    android:layout_width="64dp"
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="@android:dimen/notification_large_icon_height"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@null"
-                    android:ems="10"
-                    android:gravity="center"
-                    android:hint="12"
-                    android:inputType="numberDecimal"
-                    android:textAppearance="@android:style/TextAppearance.Material.Headline"
-                    tools:background="null"
-                    tools:layout_width="50dp" />
+                    android:layout_weight="30"
+                    android:text="計算" />
+
             </LinearLayout>
 
             <LinearLayout
