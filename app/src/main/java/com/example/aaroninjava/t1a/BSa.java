@@ -166,11 +166,11 @@ public class BSa {
     //public bsa2(String CP,double Pr,double S,double K,double T,double sigma,double r,double y){
 //public  static void iv1(double P) {
     //public static void iv1a(String CP,double P,double S,double K,double T,double r,double y) {
-    public void iv1a() {
+    public double iv1() {
         System.out.println("IV1a");
         //double P=1.414;
         //double P=1.732;
-
+        double iv1a=0;
         double value=0;
         double err=0;
         double tol=0.0001;
@@ -223,6 +223,7 @@ public class BSa {
         //System.out.println("y=x*x結果是"+value);
         System.out.println("IV1a");
         //System.out.println("結果誤差="+err);
+        return std;
     }
 
     public  static double yx(double x) {
