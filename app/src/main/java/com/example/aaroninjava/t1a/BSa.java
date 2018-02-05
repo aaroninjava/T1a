@@ -12,9 +12,9 @@ public class BSa {
     String CP;
     NormalDistribution n1 = new NormalDistribution();
 
-    public bsa2(){}
-    public bsa2(double x){}
-    public bsa2(double S,double K,double T,double sigma,double r,double y){
+    public BSa(){}
+    public BSa(double x){}
+    public BSa(double S,double K,double T,double sigma,double r,double y){
         this.S=S;
         this.K=K;
         this.T=T;
@@ -27,7 +27,7 @@ public class BSa {
 
     }
 
-    public bsa2(String CP,double Pr,double S,double K,double T,double sigma,double r,double y){
+    public BSa(String CP,double Pr,double S,double K,double T,double sigma,double r,double y){
         this.CP=CP;
         this.Pr=Pr;
         this.S=S;
